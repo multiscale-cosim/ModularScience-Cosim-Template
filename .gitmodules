@@ -1,0 +1,3 @@
+[submodule "EBRAINS-InterscaleHUB"]
+	path = EBRAINS-InterscaleHUB
+	url = git@github.com:sontheimer/EBRAINS-InterscaleHUB.git
