@@ -12,3 +12,11 @@
 [submodule "tvb-root"]
 	path = tvb-root
 	url = git@github.com:multiscale-cosim/tvb-root.git
+[submodule "EBRAINS-Config-Manager"]
+	path = EBRAINS-Config-Manager
+	url = git@github.com:sontheimer/EBRAINS-Config-Manager.git
+	branch = stable-release
+[submodule "EBRAINS-Launcher"]
+	path = EBRAINS-Launcher
+	url = git@github.com:sontheimer/EBRAINS-Launcher.git
+	branch = stable-release
