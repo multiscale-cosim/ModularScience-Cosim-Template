@@ -9,3 +9,6 @@
 [submodule "nest-simulator"]
 	path = nest-simulator
 	url = git@github.com:multiscale-cosim/nest-simulator.git
+[submodule "tvb-root"]
+	path = tvb-root
+	url = git@github.com:multiscale-cosim/tvb-root.git
