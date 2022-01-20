@@ -6,3 +6,6 @@
 	path = EBRAINS-RichEndpoint
 	url = git@github.com:mfahdaz/EBRAINS-RichEndpoint.git
 	branch = stable-release
+[submodule "nest-simulator"]
+	path = nest-simulator
+	url = git@github.com:multiscale-cosim/nest-simulator.git
