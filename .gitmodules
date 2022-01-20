@@ -2,3 +2,7 @@
 	path = EBRAINS-InterscaleHUB
 	url = git@github.com:sontheimer/EBRAINS-InterscaleHUB.git
 	branch = stable-release
+[submodule "EBRAINS-RichEndpoint"]
+	path = EBRAINS-RichEndpoint
+	url = git@github.com:mfahdaz/EBRAINS-RichEndpoint.git
+	branch = stable-release
