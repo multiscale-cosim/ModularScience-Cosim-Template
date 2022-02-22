@@ -1,12 +1,14 @@
-# TVB-NEST-demo
-temporary repo for a TVB-NEST demonstrator
-
 ## Changelog for cosim template demo
 * transformation with InterscaleHUB
 * temporary result folder creation and deletion upon run in run.py
 * removed launcher subfolder
 * removed transformation subfolder
 * neccessary changes of relative paths in run.py and parameter.py 
+* moved old demo files and cleanup
+
+
+# TVB-NEST-demo
+temporary repo for a TVB-NEST demonstrator
 
 ## Topic
 This repository is a demonstration for the co-simulation between TVB, NEST and Elephant.
