@@ -9,9 +9,6 @@
 [submodule "nest-simulator"]
 	path = nest-simulator
 	url = https://github.com/multiscale-cosim/nest-simulator.git
-[submodule "tvb-root"]
-	path = tvb-root
-	url = https://github.com/multiscale-cosim/tvb-root.git
 [submodule "EBRAINS-Config-Manager"]
 	path = EBRAINS-Config-Manager
 	url = https://github.com/sontheimer/EBRAINS-Config-Manager.git
