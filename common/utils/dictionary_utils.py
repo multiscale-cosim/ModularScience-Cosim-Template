@@ -1,14 +1,22 @@
-# ------------------------------------------------------------------------------
-#  Copyright 2020 Forschungszentrum Jülich GmbH and Aix-Marseille Université
-# "Licensed to the Apache Software Foundation (ASF) under one or more contributor
-#  license agreements; and to You under the Apache License, Version 2.0. "
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+#  Copyright 2020 Forschungszentrum Jülich GmbH
+# "Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements; and to You under the Apache License,
+# Version 2.0. "
+#
+# Forschungszentrum Jülich
+#  Institute: Institute for Advanced Simulation (IAS)
+#    Section: Jülich Supercomputing Centre (JSC)
+#   Division: High Performance Computing in Neuroscience
+# Laboratory: Simulation Laboratory Neuroscience
+#       Team: Multi-scale Simulation and Design
+# -----------------------------------------------------------------------------
 
 from functools import reduce
 import operator
 
 
-def set_in_dictionary(xml_dictionary, key_list, new_value):
+def set_in_dictionary(dictionary, key_list, new_value):
     """Finds and replace the value for the ``key_list`` with the
     specified ``new_value``in the nested dictionary.
 
@@ -38,7 +46,7 @@ def set_in_dictionary(xml_dictionary, key_list, new_value):
      """
 
     # get the nested sub_dictionary for the specified depth
-    nested_sub_dictionary = get_from_dictionary(xml_dictionary, key_list[:-1])
+    nested_sub_dictionary = get_from_dictionary(dictionary, key_list[:-1])
     try:
         if nested_sub_dictionary[key_list[-1]]:
             # Case: if the specified key exists
@@ -47,7 +55,7 @@ def set_in_dictionary(xml_dictionary, key_list, new_value):
         raise e
 
 
-def get_from_dictionary(xml_dictionary, key_list):
+def get_from_dictionary(dictionary, key_list):
     """Finds the specified nested key into a dictionary.
 
     Raises ``KeyError`` exception if the ``key_list`` is not found in dictionary.
@@ -56,7 +64,7 @@ def get_from_dictionary(xml_dictionary, key_list):
 
     Parameters
     ----------
-    xml_dictionary : dict
+    dictionary : dict
         nested data structure to find the value
 
     key_list : list
@@ -67,6 +75,6 @@ def get_from_dictionary(xml_dictionary, key_list):
     Returns the sub_dictionary matches with ``key_list``."""
 
     try:
-        return reduce(operator.getitem, key_list, xml_dictionary)
+        return reduce(operator.getitem, key_list, dictionary)
     except (KeyError, TypeError, IndexError) as e:
         raise e

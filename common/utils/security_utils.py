@@ -9,10 +9,9 @@
 #   Division: High Performance Computing in Neuroscience
 # Laboratory: Simulation Laboratory Neuroscience
 #       Team: Multi-scale Simulation and Design
-#
 # ------------------------------------------------------------------------------
 
 def check_integrity(object, type):
     if not isinstance(object, type):
         # TODO raise a contextful exception
-        raise Exception(f"object{object} is not instance of {type}")
+        raise Exception(f"{object} is not an instance of {type}")
