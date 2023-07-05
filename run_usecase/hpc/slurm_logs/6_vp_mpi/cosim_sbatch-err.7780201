@@ -1,0 +1,51 @@
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_vx=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for this output (/p/software/juwels/lmod/8.7.12/init/bash)
+Shell debugging restarted
++ unset __lmod_vx
++ module --force purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Stages/2022 GCCcore/.11.2.0 GCC/11.2.0 ParaStationMPI/5.5.0-1 Python/3.9.6 mpi4py/3.1.3 CMake/3.21.1 ZeroMQ/4.3.4
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+
+  [01;33mThis stage is deprecated. Please consider moving to a new stage (2023
+or newer)[0m
+
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ export CO_SIM_ROOT_PATH=/p/project/cslns/fahad1/my_forked_repos
++ CO_SIM_ROOT_PATH=/p/project/cslns/fahad1/my_forked_repos
++ export CO_SIM_MODULES_ROOT_PATH=/p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1
++ CO_SIM_MODULES_ROOT_PATH=/p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1
++ export CO_SIM_USE_CASE_ROOT_PATH=/p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1
++ CO_SIM_USE_CASE_ROOT_PATH=/p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1
++ export CO_SIM_NEST=/p/project/cslns/fahad1/my_forked_repos/nest
++ CO_SIM_NEST=/p/project/cslns/fahad1/my_forked_repos/nest
++ export PATH=/p/project/cslns/fahad1/my_forked_repos/nest/bin:/p/software/juwels/stages/2022/software/ZeroMQ/4.3.4-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/util-linux/2.37-GCCcore-11.2.0/sbin:/p/software/juwels/stages/2022/software/util-linux/2.37-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/CMake/3.21.1-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/libarchive/3.5.1-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/cURL/7.78.0-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/libjpeg-turbo/2.1.1-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/NASM/2.15.05-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/gflags/2.2.2-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/PostgreSQL/13.4-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/libxslt/1.1.34-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/OpenSSL/1.1/bin:/p/software/juwels/stages/2022/software/SQLite/3.36-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/Tcl/8.6.11-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/ncurses/6.2-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/bzip2/1.0.8-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/psmpi/5.5.0-1-GCC-11.2.0/bin:/p/software/juwels/stages/2022/software/libxml2/2.9.10-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/XZ/5.2.5-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/pscom/5.4-default/bin:/p/software/juwels/stages/2022/software/UCX/default/bin:/p/software/juwels/stages/2022/software/CUDA/11.5/nvvm/bin:/p/software/juwels/stages/2022/software/CUDA/11.5/bin:/p/software/juwels/stages/2022/software/nvidia-driver/default:/p/software/juwels/stages/2022/software/nvidia-driver/default/bin:/p/software/juwels/stages/2022/software/numactl/2.0.14/bin:/p/software/juwels/stages/2022/software/binutils/2.37-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/GCCcore/11.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ddn/ime/bin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwels/bin
++ PATH=/p/project/cslns/fahad1/my_forked_repos/nest/bin:/p/software/juwels/stages/2022/software/ZeroMQ/4.3.4-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/util-linux/2.37-GCCcore-11.2.0/sbin:/p/software/juwels/stages/2022/software/util-linux/2.37-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/CMake/3.21.1-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/libarchive/3.5.1-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/cURL/7.78.0-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/libjpeg-turbo/2.1.1-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/NASM/2.15.05-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/gflags/2.2.2-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/PostgreSQL/13.4-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/libxslt/1.1.34-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/OpenSSL/1.1/bin:/p/software/juwels/stages/2022/software/SQLite/3.36-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/Tcl/8.6.11-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/ncurses/6.2-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/bzip2/1.0.8-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/psmpi/5.5.0-1-GCC-11.2.0/bin:/p/software/juwels/stages/2022/software/libxml2/2.9.10-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/XZ/5.2.5-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/pscom/5.4-default/bin:/p/software/juwels/stages/2022/software/UCX/default/bin:/p/software/juwels/stages/2022/software/CUDA/11.5/nvvm/bin:/p/software/juwels/stages/2022/software/CUDA/11.5/bin:/p/software/juwels/stages/2022/software/nvidia-driver/default:/p/software/juwels/stages/2022/software/nvidia-driver/default/bin:/p/software/juwels/stages/2022/software/numactl/2.0.14/bin:/p/software/juwels/stages/2022/software/binutils/2.37-GCCcore-11.2.0/bin:/p/software/juwels/stages/2022/software/GCCcore/11.2.0/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ddn/ime/bin:/opt/jsc/bin:/usr/local/jsc/bin:/opt/parastation/bin:/p/software/juwels/bin
++ export PYTHONPATH=/p/software/juwels/stages/2022/software/mpi4py/3.1.3-gpsmpi-2021b/lib/python3.9/site-packages:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/easybuild/python:/p/project/cslns/fahad1/my_forked_repos/nest/lib64/python3.9/site-packages
++ PYTHONPATH=/p/software/juwels/stages/2022/software/mpi4py/3.1.3-gpsmpi-2021b/lib/python3.9/site-packages:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/easybuild/python:/p/project/cslns/fahad1/my_forked_repos/nest/lib64/python3.9/site-packages
++ export PYTHONPATH=/p/software/juwels/stages/2022/software/mpi4py/3.1.3-gpsmpi-2021b/lib/python3.9/site-packages:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/easybuild/python:/p/project/cslns/fahad1/my_forked_repos/nest/lib64/python3.9/site-packages:/p/project/cslns/fahad1/my_forked_repos/site-packages
++ PYTHONPATH=/p/software/juwels/stages/2022/software/mpi4py/3.1.3-gpsmpi-2021b/lib/python3.9/site-packages:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/easybuild/python:/p/project/cslns/fahad1/my_forked_repos/nest/lib64/python3.9/site-packages:/p/project/cslns/fahad1/my_forked_repos/site-packages
++ export PYTHONPATH=/p/software/juwels/stages/2022/software/mpi4py/3.1.3-gpsmpi-2021b/lib/python3.9/site-packages:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/easybuild/python:/p/project/cslns/fahad1/my_forked_repos/nest/lib64/python3.9/site-packages:/p/project/cslns/fahad1/my_forked_repos/site-packages:/p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1
++ PYTHONPATH=/p/software/juwels/stages/2022/software/mpi4py/3.1.3-gpsmpi-2021b/lib/python3.9/site-packages:/p/software/juwels/stages/2022/software/Python/3.9.6-GCCcore-11.2.0/easybuild/python:/p/project/cslns/fahad1/my_forked_repos/nest/lib64/python3.9/site-packages:/p/project/cslns/fahad1/my_forked_repos/site-packages:/p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1
++ srun -n 1 --exact python3 /p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1/main.py --global-settings /p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1/EBRAINS_WorkflowConfigurations/general/global_settings.xml --action-plan /p/project/cslns/fahad1/my_forked_repos/TVB-NEST-usecase1/EBRAINS_WorkflowConfigurations/usecase/hpc/plans/cosim_alpha_brunel_hpc.xml
+srun: Warning: can't run 1 processes on 7 nodes, setting nnodes to 1
+0: srun: error: Required nodelist includes more nodes than permitted by max-node count (6 > 1). Eliminating nodes from the nodelist.

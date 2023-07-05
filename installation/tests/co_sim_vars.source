@@ -1,0 +1,14 @@
+#!/bin/bash
+
+module --force purge
+module load Stages/2022 GCCcore/.11.2.0  GCC/11.2.0 \
+    ParaStationMPI/5.5.0-1 Python/3.9.6 mpi4py/3.1.3 CMake/3.21.1 ZeroMQ/4.3.4
+
+export CO_SIM_ROOT_PATH=`pwd`
+export CO_SIM_USE_CASE_ROOT_PATH=${CO_SIM_ROOT_PATH}/TVB-NEST-usecase1
+export CO_SIM_MODULES_ROOT_PATH=${CO_SIM_USE_CASE_ROOT_PATH}
+
+export CO_SIM_PYTHONPATH=${CO_SIM_USE_CASE_ROOT_PATH}:${CO_SIM_ROOT_PATH}/site-packages:${CO_SIM_ROOT_PATH}/nest/lib64/python3.9/site-packages
+export PYTHONPATH=${CO_SIM_PYTHONPATH}:$PYTHONPATH
+
+export PATH=${CO_SIM_ROOT_PATH}/nest/bin:$PATH

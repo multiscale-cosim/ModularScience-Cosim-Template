@@ -1,0 +1,1 @@
+{"co_simulation": true, "path": "Cosimulation_outputs/fahad1_outputs_2023-06-07_123709/simulation_results", "simulation_time": 5.0, "level_log": 1, "resolution": 0.1, "nb_neurons": [100], "time_synchronization": 1.2, "id_nest_region": [0], "nb_brain_synapses": 1, "id_first_neurons": [1], "save_spikes": true, "save_rate": true}

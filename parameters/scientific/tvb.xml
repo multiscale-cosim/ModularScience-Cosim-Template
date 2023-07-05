@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+        <title>TVB Parameters</title>
+        <description>Scientific Parameters for the TVB Simulation Model</description>
+        <synchronization_time datatype="float">1.2</synchronization_time>
+        <!-- id_nest_region -->
+        <proxy_inds datatype="array" sep="," dtype="int">
+                0
+        </proxy_inds>
+        <white_matter_speed datatype="array" sep=",">
+                4.0
+        </white_matter_speed>
+        <lab_coupling_linear_a datatype="array" sep=",">
+                0.154
+        </lab_coupling_linear_a>
+        <!-- resolution -->
+        <heun_deterministic_dt datatype="float">0.1</heun_deterministic_dt>
+</parameters>
